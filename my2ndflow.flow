@@ -1,0 +1,46 @@
+[
+    {
+        "id": "89d2110.c21d6f",
+        "type": "inject",
+        "z": "2917956.75dc86a",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "eae717ba.6e3068",
+                "3b92b693.340bca"
+            ]
+        ]
+    },
+    {
+        "id": "eae717ba.6e3068",
+        "type": "debug",
+        "z": "2917956.75dc86a",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 690,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3b92b693.340bca",
+        "type": "debug",
+        "z": "2917956.75dc86a",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 693,
+        "y": 149,
+        "wires": []
+    }
+]
